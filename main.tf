@@ -34,7 +34,4 @@ resource "aws_instance" "EC2Tera" {
   tags = {
     Name = "sanjeevec2"
   }
-  lifecycle {
-    ignore_changes = [ tags ]
-  }
 }
