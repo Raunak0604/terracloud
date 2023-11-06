@@ -32,6 +32,6 @@ resource "aws_instance" "EC2Tera" {
   availability_zone = "ap-south-1a" # Replace with your desired AMI ID
   instance_type     = "t2.micro"    # Replace with your desired instance type
   tags = {
-    Name = "sanjeevec2"
+    Name = "india"
   }
 }
